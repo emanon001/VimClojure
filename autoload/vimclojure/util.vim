@@ -47,7 +47,7 @@ endfunction
 
 function! s:SaveRegisters() dict
 	return map([self._register, "", "/", "-",
-				\ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+				\ "1", "2", "3", "4", "5", "6", "7", "8", "9"],
 				\ "s:SaveRegister(v:val)")
 endfunction
 
